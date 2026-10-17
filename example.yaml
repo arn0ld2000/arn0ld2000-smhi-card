@@ -1,0 +1,18 @@
+type: custom:arn0ld2000-smhi-card
+wind_unit: m/s
+days: 11
+refresh_minutes: 15
+stale_minutes: 90
+locations:
+  - name: Plats 1
+    entity: weather.smhi_place_1
+    latitude: 58.0
+    longitude: 11.0
+  - name: Plats 2
+    entity: weather.smhi_place_2
+    latitude: 57.0
+    longitude: 12.0
+  - name: Plats 3
+    entity: weather.smhi_place_3
+    latitude: 56.0
+    longitude: 13.0
